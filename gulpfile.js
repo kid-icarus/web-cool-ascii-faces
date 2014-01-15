@@ -8,6 +8,6 @@ gulp.task('lint', function () {
 });
 
 gulp.task('develop', function () {
-  nodemon({ script: 'server.js', options: '-e html,js -i ignored.js' })
+  nodemon({ script: 'app.js', options: '-e html,js' })
     .on('restart', ['lint'])
 });
