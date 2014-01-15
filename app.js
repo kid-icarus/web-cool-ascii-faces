@@ -27,7 +27,7 @@ app.get('/api/v1/faces/:id', function(req, res) {
     "face": faces[req.params.id]
   }]};
 
-  res.send();
+  res.send(payload);
 });
 
 app.listen('1337');
