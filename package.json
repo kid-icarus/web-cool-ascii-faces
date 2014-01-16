@@ -16,7 +16,7 @@
   "author": "Ryan Kois",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "cool-ascii-faces": "~1.0.0",
+    "cool-ascii-faces": ">=1.0.0",
     "express": "~3.4.8"
   },
   "devDependencies": {
