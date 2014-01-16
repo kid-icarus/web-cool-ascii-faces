@@ -5,7 +5,6 @@ var cool = require('cool-ascii-faces')
 var faces = require('cool-ascii-faces').faces
 
 app.get('/', function(req, res) {
-  face = cool()
   res.send(cool())
 })
 
